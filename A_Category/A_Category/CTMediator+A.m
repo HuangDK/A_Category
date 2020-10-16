@@ -11,7 +11,7 @@
 @implementation CTMediator (A)
 
 - (UIViewController *)A_aViewController {
-    return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:NO];
+    return [self performTarget:@"A" action:@"Category_ViewController" params:nil shouldCacheTarget:NO];
 }
 
 @end
